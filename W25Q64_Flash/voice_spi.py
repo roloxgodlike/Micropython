@@ -8,7 +8,7 @@ from module_file import *
 _gpio_ = ClassGPIO()
 
 file_path = '/sd/ReceivedTofile.bin'  # 8388608字节
-file_read_size = 48 * 1024 #单次读取字节
+file_read_size = 32 * 1024 #单次读取字节
 file_download_flag = 0
 
 

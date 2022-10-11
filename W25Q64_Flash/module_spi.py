@@ -4,8 +4,8 @@ from machine import SPI, SDCard
 from fpioa_manager import fm
 from Maix import GPIO
 
-LOGGER_ENABLE = 1
-_spi_baudrate = 5 * 1000 * 1000
+LOGGER_ENABLE = 0
+_spi_baudrate = 3 * 1000 * 1000
 _spi_cs = 0
 _spi1 = 0
 
